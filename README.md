@@ -33,6 +33,37 @@ Foi uma excelente oportunidade de aprender sobre o desenvolvimento tanto do **ba
 
 Clone o repositório do projeto:
 
-```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
+    git clone https://github.com/MagOss27/FlowerExperience_App.git
+    cd FlowerExperience_App
+
+### 2. Backend (Express + MySQL)
+
+### 2.1. Configuração
+Navegue até a pasta do backend e instale as dependências:
+
+    cd backend
+    npm install
+
+- **Configure o banco de dados MySQL conforme o arquivo .env (instruções de configuração no arquivo).
+
+### 2.2. Rodando o servidor
+Inicie o servidor Express:
+
+    npm start
+
+O backend estará rodando localmente, geralmente na porta 3000.
+
+### 3. Frontend (React Native)
+3.1. Instalação das dependências
+Navegue até a pasta do frontend e instale as dependências:
+
+    cd frontend
+    npm install
+
+### 3.2. Rodando o aplicativo
+Para rodar o aplicativo, use o seguinte comando:
+
+    npx react-native run-android   # Para Android
+    npx react-native run-ios       # Para iOS
+
+Certifique-se de ter o Android Studio ou o Xcode instalados para rodar o aplicativo no emulador.
